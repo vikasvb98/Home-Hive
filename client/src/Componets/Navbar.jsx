@@ -5,7 +5,7 @@ import { IoSearch } from "react-icons/io5";
 
 const Navbar = () => {
   return (
-    <header className='w-full h-16 flex items-center text-gray-700 gap-6 pl-2 bg-black md:justify-between md:px-4'>
+    <header className='w-full h-16 z-10 flex items-center fixed top-0 text-gray-700 gap-6 pl-2 bg-transparent md:justify-between md:px-4'>
         <div>
             <Link to="/">
                 <img src={logo} alt="logo"  className='w-24 h-16'/>
